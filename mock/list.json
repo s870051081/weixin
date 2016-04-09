@@ -1,0 +1,56 @@
+{
+	"ver":"1.0",
+	"ret":true,
+	"errcode":0,
+	"errsmg":"",
+	"data":[
+		{
+			"src":"img/one-thanks.png",
+			"effect":"rotateInDownLeft",
+			"duration":"0.5s",
+			"delay":"0.3s"
+		},
+		{
+			"src":"img/one-Youth.png",
+			"effect":"zoomIn",
+			"duration":"1s",
+			"delay":"0.8s"
+		},
+		{
+			"src":"img/one-1.png",
+			"effect":"lightSpeedIn",
+			"duration":"1s",
+			"delay":"2s"
+		},
+		{
+			"src":"img/one-2.png",
+			"effect":"lightSpeedIn",
+			"duration":"1s",
+			"delay":"3s"
+		},
+		{
+			"src":"img/one-3.png",
+			"effect":"lightSpeedIn",
+			"duration":"1s",
+			"delay":"4s"
+		},
+		{
+			"src":"img/one-4.png",
+			"effect":"lightSpeedIn",
+			"duration":"1s",
+			"delay":"5s"
+		},
+		{
+			"src":"img/one-people.jpg",
+			"effect":"slideInUp",
+			"duration":"1s",
+			"delay":"6s"
+		}
+	]
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,46 @@
+<div class="swiper-container">
+		<div class='aduio' id="music">
+			<img id="imgs" src="img/audio1.png" height="100%" width="100%" alt=""/>
+			<audio id="audio" src="music/mp3.mp3" autoplay="autoplay" loop="loop" preload="auto"></audio>
+		</div>
+		<img class="next" src="img/next.png" height="10%" width="20%" alt="">
+		<img class="next2" src="img/top.png" height="50%" width="20%" alt="">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide one" id="one">
+      			<!--<img class="ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s" src="img/one-thanks.png" height="7%" width="30%" alt=""/>
+      			<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" src="img/one-Youth.png" height="25%" width="45%" alt="">
+      			<img class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/one-1.png" height="5%" width="40%" alt="">
+      			<img class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/one-2.png" height="5%" width="66%" alt="">
+      			<img class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="4s" src="img/one-3.png" height="5%" width="60%" alt="">
+      			<img class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="1s" swiper-animate-delay="5s" src="img/one-4.png" height="7%" width="30%" alt="">
+        		<img class="ani" swiper-animate-effect="slideInUp" swiper-animate-duration="1s" swiper-animate-delay="6s" src="img/one-people.jpg" height="20%" width="100%" alt="">-->
+	        </div>
+	        <div class="swiper-slide two">
+	        	<img src="img/two-1.png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s" height="30%" width="70%" alt="">
+	        	<img src="img/two-2.png" class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="1s" swiper-animate-delay="1.5s" height="10%" width="25%">
+	        </div>
+	        <div class="swiper-slide three">
+	        	<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.3s" src="img/three-girl.png" height="55%" width="40%" alt="">
+	        	<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s" src="img/three-boy.png" height="55%" width="30%" alt="">
+	        	<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="2s" src="img/three-1.png" height="5%" width="70%" alt="">
+	        	<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="2.5s" src="img/three-2.png" height="5%" width="78%" alt="">
+	        	<img class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="3s" src="img/three-3.png" height="8%" width="50%" alt="">
+	        </div>
+	        <div class="swiper-slide four">
+	        	<img class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/four-1.png" height="0.5%" width="100%" alt="">
+	        	<p>我们的青春里没有徐太宇&nbsp;也没有欧阳非凡，青春里最喜欢的是科比、周杰伦、张国荣、韩寒、周星驰、迈克尔杰克逊。。。如今，他们和我们的青春一样，渐渐淡去，可心里却很想对他们说一句，谢谢你路过我的青春。。。</p>
+	        	<img class="ani" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="0.5s" src="img/four-1.png" height="0.5%" width="100%" alt="">
+	        </div>
+	        <div class="swiper-slide five">
+	        	<img class="ani" swiper-animate-effect="hinge" swiper-animate-duration="3s" swiper-animate-delay="0.5s" src="img/five-size.png" height="27%" width="100%" alt="">
+	        	<img class="ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="3.6s" src="img/five-img1.jpg" height="100%" width="100%" alt="">
+				<img class="ani" swiper-animate-effect="lightSpeedIn" swiper-animate-duration="3s" swiper-animate-delay="4s" src="img/five-img1.1.png" height="27%" width="100%" alt="">
+				
+				<img class="ani" swiper-animate-effect="slideInDown" swiper-animate-duration="5s" swiper-animate-delay="11s"  src="img/thanks.jpg" height="100%" width="100%" alt="">
+	        </div>
+
+
+	    </div>
+	    <!-- 如果需要分页器 -->
+	    <div class="swiper-pagination"></div>
+	</div>

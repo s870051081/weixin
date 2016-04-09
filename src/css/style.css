@@ -1,0 +1,225 @@
+require('../swiper/swiper-3.3.1.min.css');
+require('../swiper/animate.min.css');
+
+*{
+	margin:0;
+	padding:0;
+}
+img{border:none;}
+
+html,body{
+	height:100%;
+	margin:0 auto;
+}
+@media only screen and (min-width:640px){
+  body{
+    	width:640px;
+  }
+}
+@media only screen and (max-width:980px){
+  body{
+    	width:640px;
+  }
+} 
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.aduio{
+	position: absolute;
+	top:10%;
+	right:10%;
+	z-index: 999999;
+	width:8%;
+	height:6%;
+	-webkit-animation:music 5s linear infinite;
+} 
+
+@-webkit-keyframes music{
+	form{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+.next{
+	position: absolute;
+	bottom:0;
+	left:40%;
+	z-index:10000;
+	-webkit-animation:fn 2s linear 2s infinite;
+	opacity: 0;
+}
+.next2{
+	position: absolute;
+	top:50%;
+	left:60%;
+	z-index:10000;
+	-webkit-animation:fn1 1s linear 2s 6;
+	opacity: 0;
+	
+}
+@-webkit-keyframes fn1{
+	0%{top:50%;opacity: 1;}
+	25%{top:52%;}
+	50%{top:54%;}
+	75%{top:56%;}
+	100%{top:58%;opacity: 0;}
+}
+@-webkit-keyframes fn{
+	0%{opacity:0;}
+	25%{opacity:0.2;}
+	50%{opacity:0.4;}
+	75%{opacity:0.6;}
+	100%{opacity:0.7;}
+}
+
+.one{
+	background: url(../img/one-back.jpg) no-repeat;
+	background-size: 100% 100%; 
+	position: relative;
+	
+}
+.one img:nth-of-type(1){
+	position: absolute;
+	top:15%;
+	left:10%;
+
+}
+.one img:nth-of-type(2){
+	position: absolute;
+	top:15%;
+	left:35%;
+}
+.one img:nth-of-type(3){
+	position: absolute;
+	top:45%;
+	left:6%;
+}
+.one img:nth-of-type(4){
+	position: absolute;
+	top:52%;
+	left:6%;
+}
+.one img:nth-of-type(5){
+	position: absolute;
+	top:60%;
+	left:6%;
+}
+.one img:nth-of-type(6){
+	position: absolute;
+	top:67%;
+	left:6%;
+}
+.one img:nth-of-type(7){
+	position: absolute;
+	bottom:0;
+	left:0;
+}
+
+
+.two{
+	background:url(../img/two-back.jpg) no-repeat;
+	background-size:100% 100%;
+	position: relative; 
+}
+.two img:nth-of-type(1){
+	position: absolute;
+	top:13%;
+	left:8%;
+}
+.two img:nth-of-type(2){
+	position: absolute;
+	top:43%;
+	left:65%;
+}
+
+
+.three{
+	background: #E6E2C9;
+	position: relative;
+}
+.three img:nth-of-type(1){
+	position: absolute;
+	top:0%;
+	left:40%;
+}
+.three img:nth-of-type(2){
+	position: absolute;
+	top:55%;
+	left:5%;
+}
+.three img:nth-of-type(3){
+	position: absolute;
+	top:50%;
+	left:22%;
+}
+.three img:nth-of-type(4){
+	position: absolute;
+	top:55%;
+	left:22%;
+}
+.three img:nth-of-type(5){
+	position: absolute;
+	top:60%;
+	left:22%;
+}
+
+
+.four{
+	background:url(../img/two-back.jpg) no-repeat;
+	background-size:100% 100%;
+	position: relative; 
+}
+
+.four img:nth-of-type(1){
+	position: absolute;
+	top:10%;
+	left:0;
+}
+.four img:nth-of-type(2){
+	position: absolute;
+	top:40%;
+	left:0;
+}
+.four p{
+	position: absolute;
+	
+	width:55%;
+	height:25%;
+	top:13%;
+	left:30%;
+	font-size:10%;
+	color:#fff;
+	font-family: "宋体";
+	border-radius: 5%;
+	-webkit-border-radius:5%;
+	line-height: 150%;
+	text-shadow:1px 1px 1px #fff;
+}
+
+
+
+.five{
+	background:url(../img/five-back.jpg) no-repeat;
+	background-size:100% 100%;
+	position: relative; 
+}
+.five img:nth-of-type(2){
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+.five img:nth-of-type(3){
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 2;
+}
+.five img:nth-of-type(4){
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 3;
+}
